@@ -2,19 +2,15 @@
 
 **"In the crimson glow of forbidden login portals, AKUMA whispers the keys to your kingdom..."**  
 
-![Akuma Bruteforcer](https://i.imgur.com/NeonCyberDemon.png)  
-
 🚀 **悪魔の概要 (Demon Overview)**  
 
 AKUMA BASE_AUTH BRUTEFORCER (悪魔 - "Demon") is a relentless HTTP Basic Authentication cracking tool forged in Tokyo's underground cyber dojos. Designed for red teams and penetration testers, it combines surgical precision with brute-force efficiency to  atter weak credentials.  
 
 **"When the gates won't open... let the demon knock."**  
 
----
-
    🔥 **悪魔の特徴 (Features of the Demon)**  
 
-    **1. 地獄のコア (Hell Core Engine)**  
+   **1. 地獄のコア (Hell Core Engine)**  
 - **Multi-threaded chaos**: 10-100x faster than traditional brute-forcers (`-t 50`)  
 - **Proxy bloodline**: SOCKS5/HTTP(s) support with Tor anonymity (`-p socks5://127.0.0.1:9050`)  
 - **Captcha exorcism**: Automatically solves simple CAPTCHAs (`-c http://target/captcha`)  
@@ -34,15 +30,13 @@ AKUMA BASE_AUTH BRUTEFORCER (悪魔 - "Demon") is a relentless HTTP Basic Authen
 - **Neon terminal UI**: Color-coded results (red = success, blue = failure)  
 - **JSON/CSV reports**: For integration with other tools  
 
----
-
    ⚡ **起動コマンド (Activation Sequence)**  
 
 ``` 
 python3 akuma_bruteforce.py -u https://admin.example.com -Uf users.txt -Pf passwords.txt -t 20 -d 0.3 -p socks5://127.0.0.1:9050
 ```  
 
-    **常用コマンド (Common Commands)**  
+   **常用コマンド (Common Commands)**  
 
 | Command | Description | Example |  
 |---------|-------------|---------|  
@@ -56,23 +50,18 @@ python3 akuma_bruteforce.py -u https://admin.example.com -Uf users.txt -Pf passw
 | `-p` | Proxy (Tor/VPN) | `-p http://proxy:8080` |  
 | `-c` | CAPTCHA URL | `-c http://target/captcha.php` |  
 
----
-
    💀 **システム要件 (System Requirements)**  
 
-    **地獄の依存関係 (Dependencies from Hell)**  
+   **地獄の依存関係 (Dependencies from Hell)**  
 ``` 
 pip3 install requests tqdm concurrent-log-handler
 ```  
 
-    **Tor Proxy Setup (Optional)**  
+   **Tor Proxy Setup (Optional)**  
 ``` 
 sudo apt install tor
 service tor start
 ```  
-
----
-
    🌌 **出力例 (Sample Output)**  
 
 ``` 
@@ -86,9 +75,6 @@ service tor start
 [✅] SUCCESS: administrator:admin@123 (200) *SAVED TO success.log*  
 [🔥] 1 valid credentials found in 12m 34s.  
 ```  
-
----
-
    ⚠️ **免責事項 (Disclaimer)**  
 
 **このツールは合法的なセキュリティテスト専用です。**  
@@ -112,20 +98,16 @@ service tor start
   **AKUMA BASE_AUTH BRUTEFORCER - Демонический взломщик базовой аутентификации**  
 
 **"В кровавом свете запретных точек входа, AKUMA шепчет вам ключи от королевства..."**  
-
-![Akuma Bruteforcer](https://i.imgur.com/NeonCyberDemon.png)  
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 **Обзор демона**  
 
 AKUMA BASE_AUTH BRUTEFORCER (яп. 悪魔 - "Демон") - это беспощадный инструмент для взлома HTTP Basic Authentication, созданный в кибердодзё токийского андеграунда. Разработан для red team и пентестеров, сочетает хирургическую точность с грубой силой для взлома слабых учетных данных.  
 
 **"Когда ворота не открываются... позволь демону постучаться."**  
 
----
-
    🔥 **Особенности демона**  
 
-    **1. Адское ядро**  
+   **1. Адское ядро**  
 - **Многопоточный хаос**: в 10-100 раз быстрее обычных брутфорсеров (`-t 50`)  
 - **Прокси-кровь**: поддержка SOCKS5/HTTP(s) с анонимностью Tor (`-p socks5://127.0.0.1:9050`)  
 - **Изгнание капчи**: автоматическое решение простых капч (`-c http://target/captcha`)  
@@ -145,15 +127,13 @@ AKUMA BASE_AUTH BRUTEFORCER (яп. 悪魔 - "Демон") - это беспощ�
 - **Неоновый интерфейс**: цветные результаты (красный = успех, синий = провал)  
 - **Отчеты JSON/CSV**: для интеграции с другими инструментами  
 
----
-
    ⚡ **Команды запуска**  
 
 ``` 
 python3 akuma_bruteforce.py -u https://admin.example.com -Uf users.txt -Pf passwords.txt -t 20 -d 0.3 -p socks5://127.0.0.1:9050
 ```  
 
-    **Частые команды**  
+   **Частые команды**  
 
 | Команда | Описание | Пример |  
 |---------|-------------|---------|  
@@ -167,23 +147,17 @@ python3 akuma_bruteforce.py -u https://admin.example.com -Uf users.txt -Pf passw
 | `-p` | Прокси (Tor/VPN) | `-p http://proxy:8080` |  
 | `-c` | URL капчи | `-c http://target/captcha.php` |  
 
----
-
    💀 **Системные требования**  
 
-    **Адские зависимости**  
+   **Адские зависимости**  
 ``` 
 pip3 install requests tqdm concurrent-log-handler
 ```  
-
-    **Настройка Tor (опционально)**  
+   **Настройка Tor (опционально)**  
 ``` 
 sudo apt install tor
 service tor start
 ```  
-
----
-
    🌌 **Пример вывода**  
 
 ``` 
@@ -197,9 +171,6 @@ service tor start
 [✅] УСПЕХ: administrator:admin@123 (200) *СОХРАНЕНО В success.log*  
 [🔥] Найдено 1 валидных учетных данных за 12m 34s.  
 ```  
-
----
-
    ⚠️ **Дисклеймер**  
 
 **Этот инструмент предназначен только для легального тестирования безопасности.**  
